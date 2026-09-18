@@ -1,26 +1,9 @@
-# Hindavi Swaraj AI Shorts
+# Hindavi Swaraj AI Shorts – Gemini Image Ready
 
-AI short-video script generator for Marathi, Hindi and English creators.
+This version uses GEMINI_API_KEY for script generation and Gemini image generation.
 
-## Current MVP
-- Topic → AI script
-- Scene breakdown
-- Visual descriptions
-- Image-generation prompts
-- Marathi / Hindi / English
-- 30 / 60 / 90 second formats
+## Vercel
+Keep `GEMINI_API_KEY` in Vercel Environment Variables. Do not put the key in GitHub.
 
-## AI provider
-This version uses the Gemini API through Google's OpenAI-compatible endpoint.
-
-Set this environment variable in Vercel:
-
-`GEMINI_API_KEY`
-
-Never commit the real API key to GitHub.
-
-## Deploy
-1. Push this project to GitHub.
-2. Import the repository into Vercel.
-3. Add `GEMINI_API_KEY` under Project Settings → Environment Variables.
-4. Redeploy.
+## Test
+Generate a script, then click **Generate Image** on Scene 1. Images are requested as 9:16 portrait and displayed in the app.

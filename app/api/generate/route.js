@@ -21,7 +21,6 @@ export async function POST(req) {
       return NextResponse.json({ error: "Please enter a topic." }, { status: 400 });
     }
 
-    // Gemini API through Google's OpenAI-compatible endpoint.
     const client = new OpenAI({
       apiKey: process.env.GEMINI_API_KEY,
       baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
